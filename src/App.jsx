@@ -1,6 +1,6 @@
 import axios from "axios";
 import { UserContextProvider } from "./UserContext";
-import Routes from "./routes";
+import Routes from "./Routes";
 
 function App() {
   axios.defaults.baseURL = "https://mern-chat-backend-nine.vercel.app";
