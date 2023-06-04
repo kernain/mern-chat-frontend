@@ -22,7 +22,7 @@ const Chat = () => {
   }, []);
 
   function connectToWs() {
-    const ws = new WebSocket("wss://mern-chat-frontend-dusky.vercel.app:8884/");
+    const ws = new WebSocket("wss://mern-chat-frontend-dusky.vercel.app:5173");
     setWs(ws);
     ws.addEventListener("message", handleMessage);
     ws.addEventListener("close", () => {
